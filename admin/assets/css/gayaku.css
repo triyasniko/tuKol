@@ -1,0 +1,24 @@
+.kotak{
+	height: 500px;
+	border-right: 5px solid blue;
+	box-shadow: 3px 0px 0px #a19f9f;
+}
+img#avatar{
+	width:150px;
+	margin-bottom: 20px;
+	margin:auto;
+}
+.kiri{
+	margin-top: 120px;
+}
+.kanan p{
+	font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+	.kiri{
+		margin-top: 70px;
+	}
+	img#avatar{
+		margin-bottom: 10px;
+	}
+}
