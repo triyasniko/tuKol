@@ -137,7 +137,7 @@
 
 					}
 					unset($_SESSION["keranjang"]);
-					$_SESSION["keranjang"]="";
+					
 					echo "<script>
 							alert('Pembelian sukses');
 							location='nota.php?id=$id_pembelian_barusan';
