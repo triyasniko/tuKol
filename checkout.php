@@ -137,7 +137,7 @@
 
 					}
 					unset($_SESSION["keranjang"]);
-					
+
 					echo "<script>
 							alert('Pembelian sukses');
 							location='nota.php?id=$id_pembelian_barusan';
@@ -146,10 +146,10 @@
 
 			?>
 		</div>
-		<pre>
-			<?php print_r($_SESSION["pelanggan"]); ?>
-			<?php print_r($_SESSION["keranjang"]); ?>
-		</pre>
+		<!-- <pre>
+			<?php //print_r($_SESSION["pelanggan"]); ?>
+			<?php //print_r($_SESSION["keranjang"]); ?>
+		</pre> -->
 
 	</section>
 </body>
